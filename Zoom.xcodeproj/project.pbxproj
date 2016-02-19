@@ -12,6 +12,8 @@
 		526275741C76467E004C160D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526275721C76467E004C160D /* Main.storyboard */; };
 		526275761C76467E004C160D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526275751C76467E004C160D /* Assets.xcassets */; };
 		526275791C76467E004C160D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526275771C76467E004C160D /* LaunchScreen.storyboard */; };
+		526275821C764F59004C160D /* YPMagnifyingGlass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526275801C764F59004C160D /* YPMagnifyingGlass.swift */; };
+		526275831C764F59004C160D /* YPMagnifyingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526275811C764F59004C160D /* YPMagnifyingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		526275751C76467E004C160D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		526275781C76467E004C160D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5262757A1C76467E004C160D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526275801C764F59004C160D /* YPMagnifyingGlass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPMagnifyingGlass.swift; sourceTree = "<group>"; };
+		526275811C764F59004C160D /* YPMagnifyingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPMagnifyingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				5262756E1C76467E004C160D /* AppDelegate.swift */,
 				526275701C76467E004C160D /* ViewController.swift */,
+				526275801C764F59004C160D /* YPMagnifyingGlass.swift */,
+				526275811C764F59004C160D /* YPMagnifyingView.swift */,
 				526275721C76467E004C160D /* Main.storyboard */,
 				526275751C76467E004C160D /* Assets.xcassets */,
 				526275771C76467E004C160D /* LaunchScreen.storyboard */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				526275711C76467E004C160D /* ViewController.swift in Sources */,
+				526275821C764F59004C160D /* YPMagnifyingGlass.swift in Sources */,
+				526275831C764F59004C160D /* YPMagnifyingView.swift in Sources */,
 				5262756F1C76467E004C160D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
